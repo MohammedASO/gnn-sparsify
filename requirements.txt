@@ -1,0 +1,9 @@
+torch
+torch-geometric
+pyyaml
+scikit-learn
+fastapi
+uvicorn
+numpy
+ogb
+

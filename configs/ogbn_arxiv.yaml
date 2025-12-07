@@ -1,0 +1,18 @@
+seed: 42
+
+dataset:
+  name: "ogbn-arxiv"
+
+model:
+  hidden_channels: 64  # Larger model for better speedup visibility
+  dropout: 0.5
+
+training:
+  epochs: 100  # Enough epochs to see meaningful time differences
+  lr: 0.01
+  weight_decay: 0.0005
+
+sparsifier:
+  name: "degree"      # "random", "degree", "similarity", "two_stage"
+  sparsity: 0.6       # fraction of edges to keep
+
