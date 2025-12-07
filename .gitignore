@@ -1,0 +1,14 @@
+# venv
+venv/
+
+# data and processed tensors
+data/
+demo/backend_fastapi/data/
+*.pt
+
+# python cache
+__pycache__/
+*.pyc
+
+# editor
+.vscode/
